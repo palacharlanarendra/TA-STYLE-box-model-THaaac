@@ -13,3 +13,94 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/styles.css"/>
+</head>
+<body>
+    <header>
+        <h1>The Box Model, Box-sizing & Box-shadow</h1>
+    </header>
+    <main>
+        <section class="section-one">
+            <hr>
+            <article>
+                <h2>Exercise1</h2>
+                <div class="square"></div>
+            </article>
+        </section>
+        <section class="section-two">
+            <div class="align">
+                <span>
+                    <div class="green"></div>
+                    <p>Content</p>
+                </span>
+                <span>
+                    <div class="skyblue"></div>
+                    <p>Padding</p>
+                </span>
+                <span>
+                    <div class="black"></div>
+                    <p>Border</p>
+                </span>
+                <span>
+                    <div class="magneta"></div>
+                    <p>Margin</p>
+                </span>
+           
+            </div>
+        </section>
+        <section class="section-three">
+            <article>
+                <header>
+                    <hr>
+                    <h2>Exercise 2</h2>
+                    <p>no border on these boxes.</p>
+                </header>
+                <div class="parent-box">
+                    <div class="child-box"></div>
+                    <div class="child-box"></div>
+                    <div class="child-box"></div>
+                </div>
+
+            </article>
+        </section>
+        <section class="section-four">
+            <article>
+                <header>
+                    <hr>
+                  
+                    <p>1px border on these boxes.</p>
+                </header>
+                <div class="parent-box">
+                    <div class="child-box"></div>
+                    <div class="child-box"></div>
+                    <div class="child-box"></div>
+                </div>
+
+            </article>
+        </section>
+        <section class="section-five">
+            <article>
+                <header>
+                    <hr>
+                   
+                    <p>1px border on these boxes but they are in same line.</p>
+                </header>
+                <div class="parent-box">
+                    <div class="child-box"></div>
+                    <div class="child-box"></div>
+                    <div class="child-box"></div>
+                </div>
+
+            </article>
+        </section>
+    </main>
+
+    
+</body>
+</html>
